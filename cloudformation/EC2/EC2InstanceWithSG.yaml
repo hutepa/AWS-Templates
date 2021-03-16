@@ -6,9 +6,9 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: Mahm
+      KeyName: Mahmo
       InstanceType: t2.nano
-      ImageId: ''
+      ImageId: 'ami-4fc58420'
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
