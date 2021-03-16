@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description:
+Description: Create instance with Security Group
 Resources:
   Ec2Instance:
     Type: 'AWS::EC2::Instance'
